@@ -11,8 +11,8 @@ I have learned a lot of new things, but sometimes gets tricky to put them togeth
 
 
 
- - [For a full web description of the Port-Folio-Demo](https://bonda3vaax.github.io/Horiseon-Project/)
- - [For a full github description of the Port-Folio-Demo](https://github.com/Bonda3Vaax/Horiseon-Project.git)
+ - [For a full web description of the Port-Folio-Demo](https://bonda3vaax.github.io/Port-Folio-Demo/)
+ - [For a full github description of the Port-Folio-Demo](https://github.com/Bonda3Vaax/Port-Folio-Demo)
 
 # Features
 
@@ -66,9 +66,9 @@ To be reviewd by the Centralised Grading Team.
 
 ## Faq
 
-Q: How do I access Horiseon-Project?
+Q: How do I access Port-Folio-Demo?
 
-A: By copying the following Url into your default Browser, https://bonda3vaax.github.io/Horiseon-Project/, followed by Enter key.
+A: By copying the following Url into your default Browser, https://bonda3vaax.github.io/Port-Folio-Demo/, followed by Enter key.
 
 ## Author
 
