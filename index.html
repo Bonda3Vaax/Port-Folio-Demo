@@ -1,107 +1,240 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The reset file should load first to avoid reverting styles -->
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <!--  -->
-    <script src="./assets/js/scripts.js" defer></script>
-    <!--  -->
-    <title>MyPotfolio</title>
-  </head>
-  
-  <body>
-   <!--  -->
-    <header>
-      <nav class="navbar">
-        <div class="title">Andrei Bondaret Coding</div>
-        <!--  -->
-        <div class="navlinks">
-          <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Work">Work</a></li>
-            <li><a href="#Resume">Resume</a></li>
-            <li><a href="#Contact">Contact</a></li>
-          </ul>
-        </div> 
-        <!--  -->
-        <a href="#" class="button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Andrei's Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="icon" href="./assets/images/favicon.ico">
+</head>
+
+<body>
+  <!-- main logo & nav bar -->
+  <header>
+    <!-- add link back to home !! -->
+    <h1>Andrei Bondaret Web Developer</h1>
+    <nav>
+      <a href="#info">Info</a>
+      <a href="#projects">Projects</a>
+      <a href="#curriculum">Curriculum</a>
+      <a href="#contact">Contact</a>
+  </header>
+
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2><q>opere facto codex</q></h2>
+    </div>
+    <div class="mylogo"></div>
+  </section>
+
+  <!-- info section -->
+  <main class="page-wrapper">
+    <section class="page-section-info" id="info">
+      <h2>Info</h2>
+        <div> 
+          
+            <p>
+              Programming languages have been part of my life since childhood. 
+              From the memories of MS-DOS, Visual Basic, Turbo Pascal and Norton Commander to the earliest versions of Windows 3.11, 
+              passed on by the young developers making use of a dozen floppy disks, pilled up on the computer tower fueled by the most powerfull Pentium 80-286 at the time..
+            </p>
+            <p>
+              The passion for programming continued through my highschool years at the Information Technology Institute, where Java was introduced as a new exciting language to discover.
+              Shortly after my studies had to be put on hold due to a high amount of unmissable opportunities presented for my chefing career.   
+            </p>
+            <p>
+              Years later, my research for becoming a web developer has led to finally enrolling for a six months fullstack programming bootcamp. Due to the fast pace of the course,
+              many lessons were provided each week for the vast majority of the students. Assessments were often required to verify the progress of each student in order to provide 
+              assistance when required. Therefore a lot of material was just brushed the surface of the massive extent like JavaScript, for example, in the short time availabe to cover.
+            </p>
+            <p>
+              At the moment I have recently picked up my web dev learning opportunity being part of the Certificate IV of Information Technology in Web Developing. This will represent
+              the changes that will make possible the transition from my career of Senior Chef to a more constructive and complex programming experience.
+            </p>
+            <!-- <p>Looking forward to collaborate together in the nearby exciting Future!!</p> -->
+          
+        </div>
+    </section>
+
+
+    <!-- projects container -->
+    <section class="page-section" id="projects">
+      <h2>Projects</h2>
+      <div class="flex-container">
+
+        <a href="https://bonda3vaax.github.io/Hokkaido-Tourism/" target="_blank" class="flex-item surf-report">
+          <div>
+            <h3>Hokkaido Tourism</h3>
+            <span>Html, Css</span>
+          </div>
         </a>
-      </nav>
-      <!--  -->
-      <img class="ImgSize"src="assets/images/MyPhoto.jpg">
-    </header>
-     <!-- Body -->
-    <main>
-      <!-- Sidebar -->
-      <article id="About">
-        <div class="container">
-        <aside>
-          <h1>Info:</h1>
-        </aside>
-        <p>I am a professional qualified Italian Chef, creative and enthusiastic, with a genuine passion for food for the past 18 years. I have worked in a variety of culinary settings which has made me a versatile and knowledgeable Chef, and have held numerous leadership positions including Sous Chef and Head Chef. My particular area of expertise lies in Italian and Modern Fusion cuisine.    
-        </p>      
-        <P>I have experience in preparing, cooking and serving high quality food in accordance with menus, ensuring consistency and attention to detail. My vast experience in creating and developing menus has also supported a number of previous venues to reach sales targets and strengthen business.</P>
-        <p>
-          I am highly organised and have a large amount of experience in the planning and management of kitchen operations including overseeing appropriate receiving and storage of food, meeting food cost targets, daily and weekly forecasting, ordering and stocktake. I have particular strength in managing and facilitating a safe workplace in accordance with HACCP procedures and practices.  
-        </p>
-        </div>
-      </article>
-       <!-- This is an article -->
-      <article id="Work" class="container1">
-        <aside class="container">
-          <h1>Work:</h1>
-        </aside>
-          <div class="container10">
-            <img src="assets/images/Train.jpg" alt="Train"> 
+        
+        <a href="#" class="flex-item led-wall">
+          <div>
+            <h3>Portfolio</h3>
+            <span>Html, Css</span>
           </div>
-          <div class="container2">
-            <img src="assets/images/Beach.jpg" class="center" alt="Beach">
+        </a>
+
+        <a href="https://bonda3vaax.github.io/Password-NewGen2/" target="_blank" class="flex-item react-calc">
+          <div>
+            <h3>Password-Gen2</h3>
+            <span>CSS, JavaScript</span>
           </div>
-          <div class="container3">
-            <img src="assets/images/Mt.jpg" class="center"  alt="Mt">
+        </a>
+
+        <a href="https://bonda3vaax.github.io/Week4aQuizz/" target="_blank" class="flex-item pastel-puzzles">
+          <div>
+            <h3>Quizz</h3>
+            <span>JavaScript</span>
           </div>
-          <div class="container4">
-            <img src="assets/images/Inds.jpg" class="center" alt="Inds">
+        </a>
+
+        <a href="https://bonda3vaax.github.io/ClimateApiDash/" target="_blank" class="flex-item react-calc">
+          <div>
+            <h3>ClimateApiDash</h3>
+            <span>JavaScript</span>
           </div>
-          <div class="container5">
-            <img src="assets/images/Partty.jpg" class="center" alt="Partty">
-          </div>
-      </article>
-      <article id="Resume">
-          <aside class="container0">
-            <h1>Resume:</h1>
-          </aside>
-          <p>I am a professional qualified Italian Chef, creative and enthusiastic, with a genuine passion for food for the past 18 years. I have worked in a variety of culinary settings which has made me a versatile and knowledgeable Chef, and have held numerous leadership positions including Sous Chef and Head Chef. My particular area of expertise lies in Italian and Modern Fusion cuisine.    
-          </p>      
-          <P>I have experience in preparing, cooking and serving high quality food in accordance with menus, ensuring consistency and attention to detail. My vast experience in creating and developing menus has also supported a number of previous venues to reach sales targets and strengthen business.</P>
-          <p>I am highly organised and have a large amount of experience in the planning and management of kitchen operations including overseeing appropriate receiving and storage of food, meeting food cost targets, daily and weekly forecasting, ordering and stocktake. I have particular strength in managing and facilitating a safe workplace in accordance with HACCP procedures and practices.  
-          </p>
-      </article>
-      <article id="Contact" class="container">
-        <div class="container0">
-          <aside>
-            <h1>Contact:</h1>
-          </aside>
-          <ul>
-            <li><a href="https://login.yahoo.com/?.src=ym&lang=en-GB&done=https%3A%2F%2Fmail.yahoo.">Email</a></li>
-            <li><a href="https://www.yellowpages.com.au">Phone</a></li>
-            <li><a href="https://au.linkedin.com">LinkedIn</a></li>
-            <li><a href="https://twitter.com">Twitter</a></li>
-          </ul>
-        </div>
-      </article>
-    </main>
-    <!-- Footer -->
-    <footer>
-      <h3>
-        2022
-      </h3>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- curriculum link-->
+    <section class="page-section curriculum" id="curriculum">
+      <h2>Curriculum</h2>
+      <div class="flex-container">
+        <!-- <a href="#" class="flex-item surf-report"></a> -->
+            <table>
+              <tr>
+                  <th>Topic</th>
+                  <th>Description</th>
+              </tr>
+              <tr>
+                  <td>HTML and CSS Fundamentals</td>
+                  <td>Master the basics of HTML and CSS, including the structure of web pages and the essentials of styling and layout.</td>
+              </tr>
+              <tr>
+                  <td>JavaScript</td>
+                  <td>Learn the fundamentals of JavaScript, including data types, control structures, DOM manipulation, and event handling.</td>
+              </tr>
+              <tr>
+                  <td>Version Control System</td>
+                  <td>Understand the use of Git for version control, including basic commands, repository management, and collaboration.</td>
+              </tr>
+              <tr>
+                  <td>Front-End Frameworks</td>
+                  <td>Explore popular front-end frameworks like React, Angular, or Vue.js, and understand their component-based architecture and state management.</td>
+              </tr>
+              <tr>
+                  <td>Web Performance Optimization</td>
+                  <td>Learn techniques for optimizing web performance, including minification, image optimization, and efficient coding practices.</td>
+              </tr>
+              <!-- Add more rows for other topics and descriptions -->
+          </table>
+            
+      </div>    
+      
+    </section>
+
+
+    <section class="page-section">
+      <h2>Principles of Information Technology</h2>
+      <div class="flex-container">
+      
+      <ul>
+          <li>
+              <h3>Data Security</h3>
+              <p>Ensuring the confidentiality, integrity, and availability of data through various security measures.</p>
+          </li>
+          <li>
+              <h3>Scalability</h3>
+              <p>Designing systems and applications to handle increased workloads and growing user demands without sacrificing performance.</p>
+          </li>
+          <li>
+              <h3>User Experience</h3>
+              <p>Creating intuitive and user-friendly interfaces to enhance user satisfaction and facilitate smooth interactions with technology.</p>
+          </li>
+          <li>
+              <h3>Interoperability</h3>
+              <p>Enabling different systems and software to communicate, exchange data, and use the information to create a cohesive digital environment.</p>
+          </li>
+          <li>
+              <h3>Reliability</h3>
+              <p>Building systems and networks that consistently perform as expected, minimizing downtime and ensuring continuous operations.</p>
+          </li>
+          <li>
+              <h3>Accessibility</h3>
+              <p>Making technology usable and accessible to individuals with disabilities, ensuring equal access and opportunity for all users.</p>
+          </li>
+          <li>
+              <h3>Privacy</h3>
+              <p>Respecting and protecting individuals' rights to control their personal information and data collected by technology systems.</p>
+          </li>
+          <li>
+              <h3>Compliance</h3>
+              <p>Adhering to legal and regulatory standards to ensure that technology operations and practices are in line with industry-specific guidelines.</p>
+          </li>
+          <li>
+              <h3>Adaptability</h3>
+              <p>Designing systems and processes that can adapt to evolving technologies, business requirements, and dynamic market conditions.</p>
+          </li>
+          <li>
+              <h3>Sustainability</h3>
+              <p>Promoting the use of technology in an environmentally responsible way, minimizing energy consumption and reducing electronic waste.</p>
+          </li>
+      </ul>
+  </div>
+</section>
+
+
+
+    <!-- contact form-->
+    <section class="page-section contact" id="contact">
+      <h2>Contact</h2>
+
+      <div class="container">
+        <h4>Contact Us!</h4>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+      
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer>
+        
+    <div>
+      <address>
+        <a href="tel:+61405555555">0405.555.555</a>
+        <a href="mailto:abondaret@website.com.au">abondaret@website.com.au</a>
+        <a href="#">GitHub</a>
+        <a href="#">GitLab</a>
+        <a href="#">Slack</a>
+      </address>
+    </div>
+    
+    
     </footer>
-  </body>
+
+</body>
+
+
 </html>
