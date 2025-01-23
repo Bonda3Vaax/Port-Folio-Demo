@@ -36,7 +36,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following image shows the web application's appearance and functionality:
 
-![The Port-Folio-Demo webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/Capture.JPG)
+![The Port-Folio-Demo webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/Capture.jpg)
 ## Requirements 
 
 This project requires:
